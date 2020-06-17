@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="game" table="x_500652_numer0n_numer0n">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="gamename" table="x_500652_numer0n_numer0n">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Game</column_label>
+        <column_label>GameName</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,12 +22,12 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>game</element>
+        <element>gamename</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">glide_date</internal_type>
+        <internal_type display_value="Integer">integer</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_500652_numer0n_numer0n</name>
@@ -47,16 +47,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-12 06:34:20</sys_created_on>
-        <sys_id>e9cccec00721101020b5f4be7c1ed00f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Game</sys_name>
+        <sys_created_on>2020-06-17 07:31:54</sys_created_on>
+        <sys_id>7d549a080721101020b5f4be7c1ed0ba</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>GameName</sys_name>
         <sys_package display_value="Numer0n" source="x_500652_numer0n">750618aa2f15d01055ae309cf699b6c4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Numer0n">750618aa2f15d01055ae309cf699b6c4</sys_scope>
-        <sys_update_name>sys_dictionary_x_500652_numer0n_numer0n_game</sys_update_name>
+        <sys_update_name>sys_dictionary_x_500652_numer0n_numer0n_gamename</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-17 06:58:51</sys_updated_on>
+        <sys_updated_on>2020-06-17 07:36:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

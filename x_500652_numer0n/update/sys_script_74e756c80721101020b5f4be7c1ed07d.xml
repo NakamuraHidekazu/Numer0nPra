@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>true</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_500652_numer0n_numer0n</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_500652_numer0n_numer0n">shuffle=true^EQ<item endquery="false" field="shuffle" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>MyNumberはシャッフルされました&#xff01;</p>]]></message>
+        <name>shuffle</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+	var gr = new GlideRecord("x_500652_numer0n_numer0n");
+
+	var rand1 = Math.random();
+	var rand2 = Math.random();
+	
+	gr.query('name','pregame');
+	gr.next();
+	
+	var old1 = gr.getValue('mynum1');
+	var old2 = gr.getValue('mynum2');
+	var old3 = gr.getValue('mynum3');
+
+	if(rand1 < 0.33){
+		gr.mynum1.setValue(old1);
+		if(rand2 < 0.5){
+			gr.mynum2.setValue(old2);
+			gr.mynum3.setValue(old3);
+		}else{
+			gr.mynum2.setValue(old3);
+			gr.mynum3.setValue(old2);
+		}
+	}else if(rand1 < 0.66){
+		gr.mynum1.setValue(old2);
+		if(rand2 < 0.5){
+			gr.mynum2.setValue(old1);
+			gr.mynum3.setValue(old3);
+		}else{
+			gr.mynum2.setValue(old3);
+			gr.mynum3.setValue(old1);
+		}
+	}else{
+		gr.mynum1.setValue(old3);
+		if(rand2 < 0.5){
+			gr.mynum2.setValue(old1);
+			gr.mynum3.setValue(old2);
+		}else{
+			gr.mynum2.setValue(old2);
+			gr.mynum3.setValue(old1);
+		}
+	}
+	gr.update();
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-17 07:49:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>74e756c80721101020b5f4be7c1ed07d</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>shuffle</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Numer0n" source="x_500652_numer0n">750618aa2f15d01055ae309cf699b6c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Numer0n">750618aa2f15d01055ae309cf699b6c4</sys_scope>
+        <sys_update_name>sys_script_74e756c80721101020b5f4be7c1ed07d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-17 08:21:27</sys_updated_on>
+        <template>shuffle=true^EQ</template>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=74e756c80721101020b5f4be7c1ed07d"/>
+</record_update>
