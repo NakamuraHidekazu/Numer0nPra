@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>数字を一つ指定してMyNumberのどれに当てはまっているかを言う。</description>
+        <field>target</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>target</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   if(newValue == g_form.getValue('mynum1')){
+	alert("HIT!!  Target Number「"+ newValue +"」 = 'MyNumber1'");
+	jslog("HIT!!  Target Number「"+ newValue +"」 = 'MyNumber1'");
+   }else if(newValue == g_form.getValue('mynum2')){
+	alert("HIT!!  Target Number「"+ newValue +"」 = 'MyNumber2'");
+	jslog("HIT!!  Target Number「"+ newValue +"」 = 'MyNumber2'");
+   }else if(newValue == g_form.getValue('mynum3')){
+    alert("HIT!!  Target Number「"+ newValue +"」 = 'MyNumber3'");
+	jslog("HIT!!  Target Number「"+ newValue +"」 = 'MyNumber3'");
+   }else{
+	alert("NOT HIT... Target Number「"+ newValue +"」  is nothing");
+	jslog("NOT HIT... Target Number「"+ newValue +"」  is nothing");
+   }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 06:28:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>514ec7d0072d101020b5f4be7c1ed0af</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>target</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Numer0n" source="x_500652_numer0n">750618aa2f15d01055ae309cf699b6c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Numer0n">750618aa2f15d01055ae309cf699b6c4</sys_scope>
+        <sys_update_name>sys_script_client_514ec7d0072d101020b5f4be7c1ed0af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 06:42:59</sys_updated_on>
+        <table>x_500652_numer0n_numer0n</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -76,7 +76,6 @@
 	gr.update();
 
 
-
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -84,7 +83,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>74e756c80721101020b5f4be7c1ed07d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>shuffle</sys_name>
         <sys_overrides/>
         <sys_package display_value="Numer0n" source="x_500652_numer0n">750618aa2f15d01055ae309cf699b6c4</sys_package>
@@ -92,7 +91,7 @@
         <sys_scope display_value="Numer0n">750618aa2f15d01055ae309cf699b6c4</sys_scope>
         <sys_update_name>sys_script_74e756c80721101020b5f4be7c1ed07d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-17 08:21:27</sys_updated_on>
+        <sys_updated_on>2020-06-18 06:46:13</sys_updated_on>
         <template>shuffle=true^EQ</template>
         <when>before</when>
     </sys_script>
