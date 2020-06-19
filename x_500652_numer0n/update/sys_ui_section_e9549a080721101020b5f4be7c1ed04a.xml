@@ -4,83 +4,69 @@
             <element>shuffle</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-18 06:13:06</sys_created_on>
-            <sys_id>9debcf14072d101020b5f4be7c1ed0d3</sys_id>
+            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
+            <sys_id>23290c3c07a1101020b5f4be7c1ed098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Special Action" display_value="Special Action" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e9549a080721101020b5f4be7c1ed04a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-18 06:13:06</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>see</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-18 06:13:06</sys_created_on>
-            <sys_id>11ebcf14072d101020b5f4be7c1ed0d4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Special Action" display_value="Special Action" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e9549a080721101020b5f4be7c1ed04a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-18 06:13:06</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-18 06:13:06</sys_created_on>
-            <sys_id>91ebcf14072d101020b5f4be7c1ed0d4</sys_id>
+            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
+            <sys_id>a3290c3c07a1101020b5f4be7c1ed098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Special Action" display_value="Special Action" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e9549a080721101020b5f4be7c1ed04a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-18 06:13:06</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>h_and_l</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-18 06:13:06</sys_created_on>
-            <sys_id>15ebcf14072d101020b5f4be7c1ed0d4</sys_id>
+            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
+            <sys_id>27290c3c07a1101020b5f4be7c1ed098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Special Action" display_value="Special Action" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e9549a080721101020b5f4be7c1ed04a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-18 06:13:06</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>slash</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-18 06:13:06</sys_created_on>
-            <sys_id>95ebcf14072d101020b5f4be7c1ed0d4</sys_id>
+            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
+            <sys_id>a7290c3c07a1101020b5f4be7c1ed098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Special Action" display_value="Special Action" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e9549a080721101020b5f4be7c1ed04a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-18 06:13:06</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>target</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-18 06:13:06</sys_created_on>
-            <sys_id>19ebcf14072d101020b5f4be7c1ed0d4</sys_id>
+            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
+            <sys_id>2b290c3c07a1101020b5f4be7c1ed098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Special Action" display_value="Special Action" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e9549a080721101020b5f4be7c1ed04a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-18 06:13:06</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

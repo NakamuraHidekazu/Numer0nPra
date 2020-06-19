@@ -3,16 +3,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-17 07:31:54</sys_created_on>
+            <sys_created_on>2020-06-19 05:18:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3d549a080721101020b5f4be7c1ed04e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>79e8483c07a1101020b5f4be7c1ed045</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_500652_numer0n_numer0n" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">2d549a080721101020b5f4be7c1ed04b</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">9d51d6c00721101020b5f4be7c1ed011</sys_ui_section>
+            <sys_ui_section caption="GameName" display_value="GameName" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e1e8083c07a1101020b5f4be7c1ed0dc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-17 07:31:54</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:18:07</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>

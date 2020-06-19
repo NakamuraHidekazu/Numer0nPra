@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>call1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>ui_game</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+
+
+    function checkCall() {
+
+        var e = 0; //EAT
+        var b = 0; //BITE
+
+        //mynum1と見比べる
+        if (g_form.getValue('mynum1') === g_form.getValue('call1')) {
+            e++;
+        } else if (g_form.getValue('mynum1') === g_form.getValue('call2') || g_form.getValue('mynum1') === g_form.getValue('call3')) {
+            b++;
+        }
+
+        //mynum2と見比べる
+        if (g_form.getValue('mynum2') === g_form.getValue('call2')) {
+            e++;
+        } else if (g_form.getValue('mynum2') === g_form.getValue('call1') || g_form.getValue('mynum2') === g_form.getValue('call3')) {
+            b++;
+        }
+
+        //mynum3と見比べる
+        if (g_form.getValue('mynum3') === g_form.getValue('call3')) {
+            e++;
+        } else if (g_form.getValue('mynum3') === g_form.getValue('call1') || g_form.getValue('mynum3') === g_form.getValue('call2')) {
+            b++;
+        }
+
+        if (e === 3) {
+            alert(e + "EAT!  congratulations!!!!");
+            jslog(e + "EAT!  congratulations!!!!");
+        } else {
+            var str = "「" + g_form.getValue('call1') + "," + g_form.getValue('call2') + "," + g_form.getValue('call3') + "」 " +
+                e + "EAT  " + b + "BITE";
+            alert(str);
+            jslog(str);
+        }
+
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 04:41:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>842048b407a1101020b5f4be7c1ed005</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ui_game</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Numer0n" source="x_500652_numer0n">750618aa2f15d01055ae309cf699b6c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Numer0n">750618aa2f15d01055ae309cf699b6c4</sys_scope>
+        <sys_update_name>sys_script_client_842048b407a1101020b5f4be7c1ed005</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 04:59:41</sys_updated_on>
+        <table>x_500652_numer0n_numer0n</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Numer0n">750618aa2f15d01055ae309cf699b6c4</application>
+        <file_path/>
+        <instance_id>3360218fdb201fc07d8cf22ebf961974</instance_id>
+        <instance_name>dev51521</instance_name>
+        <name>sys_script_client_842048b407a1101020b5f4be7c1ed005</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;call1&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;ui_game&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+
+
+    function checkCall() {
+
+        var e = 0; //EAT
+        var b = 0; //BITE
+
+        //mynum1と見比べる
+        if (g_form.getValue('mynum1') === g_form.getValue('call1')) {
+            e++;
+        } else if (g_form.getValue('mynum1') === g_form.getValue('call2') || g_form.getValue('mynum1') === g_form.getValue('call3')) {
+            b++;
+        }
+
+        //mynum2と見比べる
+        if (g_form.getValue('mynum2') === g_form.getValue('call2')) {
+            e++;
+        } else if (g_form.getValue('mynum2') === g_form.getValue('call1') || g_form.getValue('mynum2') === g_form.getValue('call3')) {
+            b++;
+        }
+
+        //mynum3と見比べる
+        if (g_form.getValue('mynum3') === g_form.getValue('call3')) {
+            e++;
+        } else if (g_form.getValue('mynum3') === g_form.getValue('call1') || g_form.getValue('mynum3') === g_form.getValue('call2')) {
+            b++;
+        }
+
+        if (e === 3) {
+            alert(e + "EAT!  congratulations!!!!");
+            jslog(e + "EAT!  congratulations!!!!");
+        } else {
+            var str = "「" + g_form.getValue('call1') + "," + g_form.getValue('call2') + "," + g_form.getValue('call3') + "」 " +
+                e + "EAT  " + b + "BITE";
+            alert(str);
+            jslog(str);
+        }
+
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-06-19 04:41:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;842048b407a1101020b5f4be7c1ed005&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;ui_game&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Numer0n" source="x_500652_numer0n"&gt;750618aa2f15d01055ae309cf699b6c4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Numer0n"&gt;750618aa2f15d01055ae309cf699b6c4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_842048b407a1101020b5f4be7c1ed005&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-06-19 04:59:41&lt;/sys_updated_on&gt;&lt;table&gt;x_500652_numer0n_numer0n&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-50520077</payload_hash>
+        <record_name>ui_game</record_name>
+        <reverted_from/>
+        <source>6bfc46c00721101020b5f4be7c1ed05c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 04:59:41</sys_created_on>
+        <sys_id>3fa4887807a1101020b5f4be7c1ed0fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172caf262200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 04:59:41</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>77a4887878a110106552a8a6872146fc</update_guid>
+        <update_guid_history>77a4887878a110106552a8a6872146fc:-50520077,7673083845a1101088793ccf8e204b95:-134035808,e770047434a1101011573b2516514cd5:-935771940</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 05:07:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>96f9dc359bfa4cfc9a34fcf842e87a90</sys_id>
+        <sys_metadata>842048b407a1101020b5f4be7c1ed005</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ui_game</sys_name>
+        <sys_package display_value="Numer0n" source="x_500652_numer0n">750618aa2f15d01055ae309cf699b6c4</sys_package>
+        <sys_parent display_value="Numer0n Numer0n">3137986e2f15d01055ae309cf699b666</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Numer0n">750618aa2f15d01055ae309cf699b6c4</sys_scope>
+        <sys_scope_delete display_value="">24ed04c29cb64a40a586ed201b21a400</sys_scope_delete>
+        <sys_update_name>sys_script_client_842048b407a1101020b5f4be7c1ed005</sys_update_name>
+        <sys_update_version display_value="sys_script_client_842048b407a1101020b5f4be7c1ed005">3fa4887807a1101020b5f4be7c1ed0fc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 05:07:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

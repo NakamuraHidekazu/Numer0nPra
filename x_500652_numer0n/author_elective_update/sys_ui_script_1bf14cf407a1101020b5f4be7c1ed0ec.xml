@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_500652_numer0n.checkCall_ui</name>
+        <script><![CDATA[function checkCall() {
+
+    var e = 0; //EAT
+    var b = 0; //BITE
+
+    //mynum1と見比べる
+    if (g_form.getValue('mynum1') === g_form.getValue('call1')) {
+        e++;
+    } else if (g_form.getValue('mynum1') === g_form.getValue('call2') || g_form.getValue('mynum1') === g_form.getValue('call3')) {
+        b++;
+    }
+
+    //mynum2と見比べる
+    if (g_form.getValue('mynum2') === g_form.getValue('call2')) {
+        e++;
+    } else if (g_form.getValue('mynum2') === g_form.getValue('call1') || g_form.getValue('mynum2') === g_form.getValue('call3')) {
+        b++;
+    }
+
+    //mynum3と見比べる
+    if (g_form.getValue('mynum3') === g_form.getValue('call3')) {
+        e++;
+    } else if (g_form.getValue('mynum3') === g_form.getValue('call1') || g_form.getValue('mynum3') === g_form.getValue('call2')) {
+        b++;
+    }
+
+    if (e === 3) {
+        alert(e + "EAT!  congratulations!!!!");
+        jslog(e + "EAT!  congratulations!!!!");
+    } else {
+        var str = "「" + g_form.getValue('call1') + "," + g_form.getValue('call2') + "," + g_form.getValue('call3') + "」 " +
+            e + "EAT  " + b + "BITE";
+        alert(str);
+        jslog(str);
+    }
+
+
+}]]></script>
+        <script_name>checkCall_ui</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 04:49:59</sys_created_on>
+        <sys_id>1bf14cf407a1101020b5f4be7c1ed0ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_500652_numer0n.checkCall_ui</sys_name>
+        <sys_package display_value="Numer0n" source="x_500652_numer0n">750618aa2f15d01055ae309cf699b6c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Numer0n">750618aa2f15d01055ae309cf699b6c4</sys_scope>
+        <sys_update_name>sys_ui_script_1bf14cf407a1101020b5f4be7c1ed0ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 04:49:59</sys_updated_on>
+        <ui_type>10</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Numer0n">750618aa2f15d01055ae309cf699b6c4</application>
+        <file_path/>
+        <instance_id>3360218fdb201fc07d8cf22ebf961974</instance_id>
+        <instance_name>dev51521</instance_name>
+        <name>sys_ui_script_1bf14cf407a1101020b5f4be7c1ed0ec</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;name&gt;x_500652_numer0n.checkCall_ui&lt;/name&gt;&lt;script&gt;&lt;![CDATA[function checkCall() {
+
+    var e = 0; //EAT
+    var b = 0; //BITE
+
+    //mynum1と見比べる
+    if (g_form.getValue('mynum1') === g_form.getValue('call1')) {
+        e++;
+    } else if (g_form.getValue('mynum1') === g_form.getValue('call2') || g_form.getValue('mynum1') === g_form.getValue('call3')) {
+        b++;
+    }
+
+    //mynum2と見比べる
+    if (g_form.getValue('mynum2') === g_form.getValue('call2')) {
+        e++;
+    } else if (g_form.getValue('mynum2') === g_form.getValue('call1') || g_form.getValue('mynum2') === g_form.getValue('call3')) {
+        b++;
+    }
+
+    //mynum3と見比べる
+    if (g_form.getValue('mynum3') === g_form.getValue('call3')) {
+        e++;
+    } else if (g_form.getValue('mynum3') === g_form.getValue('call1') || g_form.getValue('mynum3') === g_form.getValue('call2')) {
+        b++;
+    }
+
+    if (e === 3) {
+        alert(e + "EAT!  congratulations!!!!");
+        jslog(e + "EAT!  congratulations!!!!");
+    } else {
+        var str = "「" + g_form.getValue('call1') + "," + g_form.getValue('call2') + "," + g_form.getValue('call3') + "」 " +
+            e + "EAT  " + b + "BITE";
+        alert(str);
+        jslog(str);
+    }
+
+
+}]]&gt;&lt;/script&gt;&lt;script_name&gt;checkCall_ui&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-06-19 04:49:59&lt;/sys_created_on&gt;&lt;sys_id&gt;1bf14cf407a1101020b5f4be7c1ed0ec&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_500652_numer0n.checkCall_ui&lt;/sys_name&gt;&lt;sys_package display_value="Numer0n" source="x_500652_numer0n"&gt;750618aa2f15d01055ae309cf699b6c4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Numer0n"&gt;750618aa2f15d01055ae309cf699b6c4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_1bf14cf407a1101020b5f4be7c1ed0ec&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-06-19 04:49:59&lt;/sys_updated_on&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1769745454</payload_hash>
+        <record_name>x_500652_numer0n.checkCall_ui</record_name>
+        <reverted_from/>
+        <source>6bfc46c00721101020b5f4be7c1ed05c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 04:49:59</sys_created_on>
+        <sys_id>a972c4f407a1101020b5f4be7c1ed087</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172cae97f150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 04:49:59</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>e172c4f410a110101286bd5f65445687</update_guid>
+        <update_guid_history>e172c4f410a110101286bd5f65445687:-1769745454</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 05:16:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>3172d9af8e384b099b36a42868da0121</sys_id>
+        <sys_metadata>1bf14cf407a1101020b5f4be7c1ed0ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_500652_numer0n.checkCall_ui</sys_name>
+        <sys_package display_value="Numer0n" source="x_500652_numer0n">750618aa2f15d01055ae309cf699b6c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Numer0n">750618aa2f15d01055ae309cf699b6c4</sys_scope>
+        <sys_scope_delete display_value="">24ed04c29cb64a40a586ed201b21a400</sys_scope_delete>
+        <sys_update_name>sys_ui_script_1bf14cf407a1101020b5f4be7c1ed0ec</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_1bf14cf407a1101020b5f4be7c1ed0ec">a972c4f407a1101020b5f4be7c1ed087</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 05:16:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

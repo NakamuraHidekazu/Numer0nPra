@@ -16,19 +16,29 @@
    }
 
    if(newValue == g_form.getValue('mynum1')){
-	alert("HIT!!  Target Number「"+ newValue +"」 = 'MyNumber1'");
-	jslog("HIT!!  Target Number「"+ newValue +"」 = 'MyNumber1'");
+	alert(hitStr(newValue));
+	jslog(hitStr(newValue));
+	
    }else if(newValue == g_form.getValue('mynum2')){
-	alert("HIT!!  Target Number「"+ newValue +"」 = 'MyNumber2'");
-	jslog("HIT!!  Target Number「"+ newValue +"」 = 'MyNumber2'");
+	alert(hitStr(newValue));
+	jslog(hitStr(newValue));
+	
    }else if(newValue == g_form.getValue('mynum3')){
-    alert("HIT!!  Target Number「"+ newValue +"」 = 'MyNumber3'");
-	jslog("HIT!!  Target Number「"+ newValue +"」 = 'MyNumber3'");
+    alert(hitStr(newValue));
+	jslog(hitStr(newValue));
+	
    }else{
-	alert("NOT HIT... Target Number「"+ newValue +"」  is nothing");
-	jslog("NOT HIT... Target Number「"+ newValue +"」  is nothing");
+	alert(nothitStr(newValue));
+	jslog(nothitStr(newValue));
    }
    
+	function hitStr(targetNum){
+		return "HIT!!  Target Number「"+ targetNum +"」 = 'MyNumber1'";
+	}
+	
+	function nothitStr(targetNum){
+		return "NOT HIT... Target Number「"+ targetNum +"」  is nothing";
+	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,7 +46,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>514ec7d0072d101020b5f4be7c1ed0af</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>target</sys_name>
         <sys_overrides/>
         <sys_package display_value="Numer0n" source="x_500652_numer0n">750618aa2f15d01055ae309cf699b6c4</sys_package>
@@ -44,7 +54,7 @@
         <sys_scope display_value="Numer0n">750618aa2f15d01055ae309cf699b6c4</sys_scope>
         <sys_update_name>sys_script_client_514ec7d0072d101020b5f4be7c1ed0af</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-18 06:42:59</sys_updated_on>
+        <sys_updated_on>2020-06-19 02:45:46</sys_updated_on>
         <table>x_500652_numer0n_numer0n</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
