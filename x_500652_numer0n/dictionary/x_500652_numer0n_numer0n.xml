@@ -89,6 +89,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="GameName" max_length="40" name="name" type="string"/>
+        <element attributes="encode_utf8=false" label="Player" max_length="32" name="player" reference="sys_user" type="reference"/>
         <element label="see(MyNumber)" max_length="40" name="see" type="boolean"/>
         <element label="Shuffle" max_length="40" name="shuffle" type="boolean"/>
         <element label="Slash" max_length="40" name="slash" type="boolean"/>
@@ -107,5 +108,8 @@
             </choice>
         </element>
         <element label="New Field Name" max_length="80" name="u_field_name_1" type="field_name"/>
+        <index name="index">
+            <element name="player"/>
+        </index>
     </element>
 </database>

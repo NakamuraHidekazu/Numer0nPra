@@ -4,13 +4,13 @@
             <element>see</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
-            <sys_id>ef290c3c07a1101020b5f4be7c1ed08d</sys_id>
+            <sys_created_on>2020-06-19 05:48:33</sys_created_on>
+            <sys_id>2fdf487007e1101020b5f4be7c1ed060</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="GameName" display_value="GameName" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e1e8083c07a1101020b5f4be7c1ed0dc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:48:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
-            <sys_id>63290c3c07a1101020b5f4be7c1ed08e</sys_id>
+            <sys_created_on>2020-06-19 05:48:33</sys_created_on>
+            <sys_id>a3df487007e1101020b5f4be7c1ed061</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="GameName" display_value="GameName" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e1e8083c07a1101020b5f4be7c1ed0dc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:48:33</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -32,139 +32,153 @@
             <element>name</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
-            <sys_id>e3290c3c07a1101020b5f4be7c1ed08e</sys_id>
+            <sys_created_on>2020-06-19 05:48:33</sys_created_on>
+            <sys_id>27df487007e1101020b5f4be7c1ed061</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="GameName" display_value="GameName" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e1e8083c07a1101020b5f4be7c1ed0dc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:48:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>player</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 05:48:33</sys_created_on>
+            <sys_id>a7df487007e1101020b5f4be7c1ed061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="GameName" display_value="GameName" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e1e8083c07a1101020b5f4be7c1ed0dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 05:48:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
-            <sys_id>67290c3c07a1101020b5f4be7c1ed08e</sys_id>
+            <sys_created_on>2020-06-19 05:48:33</sys_created_on>
+            <sys_id>2bdf487007e1101020b5f4be7c1ed061</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="GameName" display_value="GameName" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e1e8083c07a1101020b5f4be7c1ed0dc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:48:33</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
-            <sys_id>e7290c3c07a1101020b5f4be7c1ed08e</sys_id>
+            <sys_created_on>2020-06-19 05:48:33</sys_created_on>
+            <sys_id>abdf487007e1101020b5f4be7c1ed061</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="GameName" display_value="GameName" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e1e8083c07a1101020b5f4be7c1ed0dc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:48:33</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>mynum1</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
-            <sys_id>6b290c3c07a1101020b5f4be7c1ed08e</sys_id>
+            <sys_created_on>2020-06-19 05:48:33</sys_created_on>
+            <sys_id>2fdf487007e1101020b5f4be7c1ed061</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="GameName" display_value="GameName" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e1e8083c07a1101020b5f4be7c1ed0dc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:48:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>mynum2</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
-            <sys_id>eb290c3c07a1101020b5f4be7c1ed08e</sys_id>
+            <sys_created_on>2020-06-19 05:48:33</sys_created_on>
+            <sys_id>afdf487007e1101020b5f4be7c1ed061</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="GameName" display_value="GameName" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e1e8083c07a1101020b5f4be7c1ed0dc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:48:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>mynum3</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
-            <sys_id>6f290c3c07a1101020b5f4be7c1ed08e</sys_id>
+            <sys_created_on>2020-06-19 05:48:33</sys_created_on>
+            <sys_id>23df487007e1101020b5f4be7c1ed062</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="GameName" display_value="GameName" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e1e8083c07a1101020b5f4be7c1ed0dc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:48:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
-            <sys_id>ef290c3c07a1101020b5f4be7c1ed08e</sys_id>
+            <sys_created_on>2020-06-19 05:48:33</sys_created_on>
+            <sys_id>a3df487007e1101020b5f4be7c1ed062</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="GameName" display_value="GameName" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e1e8083c07a1101020b5f4be7c1ed0dc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:48:33</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>call1</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
-            <sys_id>63290c3c07a1101020b5f4be7c1ed08f</sys_id>
+            <sys_created_on>2020-06-19 05:48:33</sys_created_on>
+            <sys_id>27df487007e1101020b5f4be7c1ed062</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="GameName" display_value="GameName" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e1e8083c07a1101020b5f4be7c1ed0dc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:48:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>call2</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
-            <sys_id>e3290c3c07a1101020b5f4be7c1ed08f</sys_id>
+            <sys_created_on>2020-06-19 05:48:33</sys_created_on>
+            <sys_id>a7df487007e1101020b5f4be7c1ed062</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="GameName" display_value="GameName" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e1e8083c07a1101020b5f4be7c1ed0dc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:48:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>call3</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-06-19 05:19:20</sys_created_on>
-            <sys_id>67290c3c07a1101020b5f4be7c1ed08f</sys_id>
+            <sys_created_on>2020-06-19 05:48:33</sys_created_on>
+            <sys_id>2bdf487007e1101020b5f4be7c1ed062</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="GameName" display_value="GameName" name="x_500652_numer0n_numer0n" sys_domain="global" view="Default view">e1e8083c07a1101020b5f4be7c1ed0dc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-06-19 05:19:20</sys_updated_on>
+            <sys_updated_on>2020-06-19 05:48:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
