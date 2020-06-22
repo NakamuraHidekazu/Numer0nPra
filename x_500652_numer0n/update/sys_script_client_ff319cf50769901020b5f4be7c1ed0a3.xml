@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
@@ -8,45 +8,50 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>role check</name>
+        <name>role check (Multiple)</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
     if (isLoading || newValue === '') {
         return;
     }
 
-    var garole = new GlideAjax('getrole');
+    var garole = new GlideAjax('getrolePremium');
 
     garole.addParam('sysparm_name', 'roleOk');
     garole.addParam('sysparm_user_name', g_form.getValue('player'));
+    //alert(garole.getAnswer());
     garole.getXML(printRole);
 
     function printRole(response) {
         var str = response.responseXML.documentElement.getAttribute("answer");
         if (str == null) {
-            g_form.showFieldMsg("player", "You are not player!", "error");
+            g_form.showFieldMsg("player", "You are not Player", "error");
+        } else if (str == 2) {
+            g_form.showFieldMsg("player", "Welcome! Premium Nume0n Player!");
         } else {
-            g_form.showFieldMsg("player", str);
+            g_form.showFieldMsg("player", "You are not (Player or Premium)", "warning");
         }
+
     }
+
 
 
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-19 06:14:44</sys_created_on>
+        <sys_created_on>2020-06-22 08:43:18</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d0b5147407e1101020b5f4be7c1ed055</sys_id>
-        <sys_mod_count>51</sys_mod_count>
-        <sys_name>role check</sys_name>
+        <sys_id>ff319cf50769901020b5f4be7c1ed0a3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>role check (Multiple)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Numer0n" source="x_500652_numer0n">750618aa2f15d01055ae309cf699b6c4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Numer0n">750618aa2f15d01055ae309cf699b6c4</sys_scope>
-        <sys_update_name>sys_script_client_d0b5147407e1101020b5f4be7c1ed055</sys_update_name>
+        <sys_update_name>sys_script_client_ff319cf50769901020b5f4be7c1ed0a3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-22 08:50:25</sys_updated_on>
+        <sys_updated_on>2020-06-22 08:55:34</sys_updated_on>
         <table>x_500652_numer0n_numer0n</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

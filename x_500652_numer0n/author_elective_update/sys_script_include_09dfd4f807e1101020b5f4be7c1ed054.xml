@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_500652_numer0n.getrole</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>ロール情報の取得</description>
+        <name>getrole</name>
+        <script><![CDATA[var getrole = Class.create();
+getrole.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    initialize: function() {},
+
+    roleOk: function() {
+        //         var uhrRec = new GlideRecord('sys_user_has_role');
+
+        //         uhrRec.addQuery('user', userID);
+        //         uhrRec.addQuery('role.name', role);
+        //         uhrRec.query();
+        //return uhrRec.getParameter('sysparm_user_name');
+        return "roleOK  " + this.getParameter('sysparm_user_name') + "!";
+    },
+
+    type: 'getrole'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 07:34:53</sys_created_on>
+        <sys_id>09dfd4f807e1101020b5f4be7c1ed054</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>getrole</sys_name>
+        <sys_package display_value="Numer0n" source="x_500652_numer0n">750618aa2f15d01055ae309cf699b6c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Numer0n">750618aa2f15d01055ae309cf699b6c4</sys_scope>
+        <sys_update_name>sys_script_include_09dfd4f807e1101020b5f4be7c1ed054</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 01:41:43</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Numer0n">750618aa2f15d01055ae309cf699b6c4</application>
+        <file_path/>
+        <instance_id>3360218fdb201fc07d8cf22ebf961974</instance_id>
+        <instance_name>dev51521</instance_name>
+        <name>sys_script_include_09dfd4f807e1101020b5f4be7c1ed054</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;false&lt;/active&gt;&lt;api_name&gt;x_500652_numer0n.getrole&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;ロール情報の取得&lt;/description&gt;&lt;name&gt;getrole&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var getrole = Class.create();
+getrole.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    initialize: function() {},
+
+    roleOk: function() {
+        //         var uhrRec = new GlideRecord('sys_user_has_role');
+
+        //         uhrRec.addQuery('user', userID);
+        //         uhrRec.addQuery('role.name', role);
+        //         uhrRec.query();
+        //return uhrRec.getParameter('sysparm_user_name');
+        return "roleOK  " + this.getParameter('sysparm_user_name') + "!";
+    },
+
+    type: 'getrole'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-06-19 07:34:53&lt;/sys_created_on&gt;&lt;sys_id&gt;09dfd4f807e1101020b5f4be7c1ed054&lt;/sys_id&gt;&lt;sys_mod_count&gt;26&lt;/sys_mod_count&gt;&lt;sys_name&gt;getrole&lt;/sys_name&gt;&lt;sys_package display_value="Numer0n" source="x_500652_numer0n"&gt;750618aa2f15d01055ae309cf699b6c4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Numer0n"&gt;750618aa2f15d01055ae309cf699b6c4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_09dfd4f807e1101020b5f4be7c1ed054&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-06-22 01:41:43&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>113057694</payload_hash>
+        <record_name>getrole</record_name>
+        <reverted_from/>
+        <source>9d0570780725101020b5f4be7c1ed017</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 01:41:44</sys_created_on>
+        <sys_id>c52476a90765901020b5f4be7c1ed092</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172d9b037e00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 01:41:44</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>012476a9f16590108410e121bb12cc92</update_guid>
+        <update_guid_history>012476a9f16590108410e121bb12cc92:113057694,6e537e69cf659010c790f3dae22d21bc:-1024839956,74f1ba29d4659010bdc9bf5cf7bb6a8f:-1399057003,9dc1fee5dc65901044eddb47d73a57ef:-943544314,7da1b6292f659010e5d313cf66127a76:1368972499,85217ae5a5659010fed4cbc580548d60:-943544314,5ff0fae5906590101be4557a76e19eb6:1286423846,4aa0f6e5b5659010e3e03aefbf97f19f:448252936,cb20f2e54765901045b59e56ae6cbcbf:-162786266,94efeaa51c659010db31062a205870dc:-1444247642,37cfaea556659010fcae17c9f162973d:-656148314,d82f2aa53b659010c164662bf1ae280d:-420724320,5f1f6a65cd659010491adb82eab04584:-2017401491,51057078dd2510100782ca4dc6faa419:107027302,562330f435251010a70068cca4637e8f:-676704493,ed62b0f40c2510100d40e16b7e47f70f:2067073367,e8e17c74a3251010aee16d5b26ac3842:-1595376563,fc8f28748325101067693264985e1665:-796912137,ad4fe834e02510100f3bcf05289a7ab1:-414322227,edfe20742a2510105b5389f7b801876e:-20973551,dcbeec3464251010ff19eabe701dc141:1497970673,5b8e6c34c92510106b8ecee71812bc83:-198925448,096ee83400251010f91fd4c0e97ef8a6:-1709753147,928da8f0ca2510108c85c62f4ad76247:1906952260,4f8c64f08e25101033f2518865b2c3cb:-113276213,aa79e830ca25101082facd471ca8d210:1455254074,4d3864302c251010a6436aa1ed4b2a5e:-821756052</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 01:43:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>7b65307c58f5413495a8b87026ecfb24</sys_id>
+        <sys_metadata>09dfd4f807e1101020b5f4be7c1ed054</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getrole</sys_name>
+        <sys_package display_value="Numer0n" source="x_500652_numer0n">750618aa2f15d01055ae309cf699b6c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Numer0n">750618aa2f15d01055ae309cf699b6c4</sys_scope>
+        <sys_scope_delete display_value="">24ed04c29cb64a40a586ed201b21a400</sys_scope_delete>
+        <sys_update_name>sys_script_include_09dfd4f807e1101020b5f4be7c1ed054</sys_update_name>
+        <sys_update_version display_value="sys_script_include_09dfd4f807e1101020b5f4be7c1ed054">c52476a90765901020b5f4be7c1ed092</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 01:43:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

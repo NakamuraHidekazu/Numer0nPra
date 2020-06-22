@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_500652_numer0n.getrolePremium</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getrolePremium</name>
+        <script><![CDATA[var getrolePremium = Class.create();
+getrolePremium.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    roleOk: function() {
+        var uhrRec = new GlideRecord('sys_user_has_role');
+
+        uhrRec.addQuery('user', this.getParameter('sysparm_user_name'));
+
+        uhrRec.addQuery('role', 'IN', '82971f1c072d101020b5f4be7c1ed0f5,0a40a3e507e5901020b5f4be7c1ed041');
+        //playerRole.addOrCondition('role', '0a40a3e507e5901020b5f4be7c1ed041'); //player or premium
+
+
+        uhrRec.query();
+        while (uhrRec.next()) {
+//             if (uhrRec.getRowCount() == 2) {
+//                 return "Welcome! Premium Nume0n Player!";
+//             }
+			return uhrRec.getRowCount();
+        }
+
+    },
+
+    type: 'getrolePremium'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 08:06:35</sys_created_on>
+        <sys_id>4feb44350769901020b5f4be7c1ed066</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>getrolePremium</sys_name>
+        <sys_package display_value="Numer0n" source="x_500652_numer0n">750618aa2f15d01055ae309cf699b6c4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Numer0n">750618aa2f15d01055ae309cf699b6c4</sys_scope>
+        <sys_update_name>sys_script_include_4feb44350769901020b5f4be7c1ed066</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 08:47:47</sys_updated_on>
+    </sys_script_include>
+</record_update>
